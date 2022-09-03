@@ -1,7 +1,0 @@
-pytest
-click
-pylint
-pytest-cov
-black
-tensorflow
-tfx

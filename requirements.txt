@@ -1,5 +1,4 @@
-pytest
-click
-pylint
-pytest-cov
-black
+ludwig
+matplotlib
+seaborn
+ipywidgets
