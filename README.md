@@ -1,10 +1,19 @@
-# Python_scaffolding
-Python scaffolding for MLOps, based on [github-actions-demo](https://github.com/noahgift/github-actions-demo) from Noah Gift, 
-who created his repo "for building out Github Actions and Tricks [and] test multiple clouds and multiple versions of Python."
+# Ludwig basic environment
+This is an experimet tying to automate the creation on an environment for experiment with Ludwig on Python 3.8
 
-[Demo Video of original repo](https://www.youtube.com/watch?v=4gbUYOgALik)
+Throught a Make file we:
+- Install venv for Python 3.8
+- Create an venv based on Python  3.8
+- Activate the venv
+- Update pip and install requirements
 
-### To use in your own project you can do this
+## Other things you need to be sure:
+Even if it sounds obvious, yo need to be sure that:
+- You activate the environment on the shell `source ./env/bin/activate`
+- You select the environment as your Python Interpreter.
+
+## Next:
+So, now you can run the demo.py script and inspect the results.
 
 Create a virtualenv
 ```python3 -m venv ~/.github-actions-demo```
