@@ -1,18 +1,11 @@
+create-venv:
+	sudo apt install python3.8-venv &&\
+		/usr/bin/python3 -m venv ./env &&\
+			source ./env/bin/activate
+
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
-
-install-gcp:
-	pip install --upgrade pip &&\
-		pip install -r requirements-gcp.txt
-
-install-aws:
-	pip install --upgrade pip &&\
-		pip install -r requirements-aws.txt
-
-install-tfx:
-	pip install --upgrade pip &&\
-		pip install -r requirements-tfx.txt
 
 lint:
 	pylint --disable=R,C hello.py
