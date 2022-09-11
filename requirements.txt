@@ -1,4 +1,0 @@
-ludwig
-matplotlib
-seaborn
-# ipywidgets
